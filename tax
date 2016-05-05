@@ -13,11 +13,6 @@ if ARGV.length == 0
     exit 0
 end
 
-if ARGV[0] == '-h'
-    puts "Usage: tax dividendAmount [number of shareholders, default 1]"
-    exit 0
-end
-
 dividend = ARGV[0].to_f
 
 for i in 0...$shareholders.length
