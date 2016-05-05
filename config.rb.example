@@ -1,0 +1,22 @@
+
+$shareholders = [
+    {
+        :name => "Alice",
+        :salary => 8060,
+        :other_income => 0
+    },
+    {
+        :name => "Bob",
+        :salary => 5000,
+        :other_income => 2000
+    }
+]
+
+$personal_allowance = 11000
+
+$taxbands = [
+    {:rate => 0, :threshold => 5000},
+    {:rate => 7.5, :threshold => 29946},
+    {:rate => 32.5, :threshold => 115005},
+    {:rate => 38, :threshold => nil}
+]
